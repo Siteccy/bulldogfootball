@@ -1,0 +1,322 @@
+/*==================================================
+#
+#   BULLDOG FOOTBALL FLAG
+#   BASE STYLESHEET
+#   Version: 1.0
+#   Author: SITECCY SAS
+#
+#   Description:
+#   This file contains the global styles used
+#   throughout the website.
+#
+#==================================================*/
+
+
+
+/*==================================================
+=            CSS RESET
+==================================================*/
+
+/*
+Removes the default styles added by browsers
+to ensure consistent rendering.
+*/
+
+*,
+*::before,
+*::after{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+
+/*==================================================
+=            ROOT VARIABLES
+==================================================*/
+
+/*
+Global variables.
+Any color, size or font should be declared here.
+*/
+
+:root{
+
+    /*==================================
+    Colors
+    ==================================*/
+
+    --color-primary:#0F172A;
+    --color-secondary:#D4AF37;
+    --color-accent:#C1121F;
+
+    --color-white:#FFFFFF;
+    --color-light:#F8FAFC;
+    --color-gray:#64748B;
+    --color-dark:#020617;
+
+    /*==================================
+    Typography
+    ==================================*/
+
+    --font-title:'Bebas Neue', sans-serif;
+    --font-body:'Montserrat', sans-serif;
+
+    /*==================================
+    Font Sizes
+    ==================================*/
+
+    --fs-xs:0.75rem;
+    --fs-sm:0.875rem;
+    --fs-md:1rem;
+    --fs-lg:1.125rem;
+    --fs-xl:1.5rem;
+    --fs-2xl:2rem;
+    --fs-3xl:3rem;
+    --fs-4xl:4rem;
+
+    /*==================================
+    Font Weight
+    ==================================*/
+
+    --fw-light:300;
+    --fw-regular:400;
+    --fw-medium:500;
+    --fw-semibold:600;
+    --fw-bold:700;
+
+    /*==================================
+    Spacing
+    ==================================*/
+
+    --space-xs:0.25rem;
+    --space-sm:0.5rem;
+    --space-md:1rem;
+    --space-lg:1.5rem;
+    --space-xl:2rem;
+    --space-2xl:3rem;
+    --space-3xl:5rem;
+
+    /*==================================
+    Border Radius
+    ==================================*/
+
+    --radius-sm:5px;
+    --radius-md:10px;
+    --radius-lg:20px;
+    --radius-xl:50px;
+
+    /*==================================
+    Shadows
+    ==================================*/
+
+    --shadow-sm:0 2px 8px rgba(0,0,0,.08);
+    --shadow-md:0 5px 15px rgba(0,0,0,.12);
+    --shadow-lg:0 10px 25px rgba(0,0,0,.20);
+
+    /*==================================
+    Transition
+    ==================================*/
+
+    --transition:.3s ease;
+
+}
+
+
+
+/*==================================================
+=            HTML
+==================================================*/
+
+html{
+
+    font-size:16px;
+
+    scroll-behavior:smooth;
+
+}
+
+
+
+/*==================================================
+=            BODY
+==================================================*/
+
+body{
+
+    font-family:var(--font-body);
+
+    font-size:var(--fs-md);
+
+    color:var(--color-dark);
+
+    background:var(--color-white);
+
+    line-height:1.6;
+
+    overflow-x:hidden;
+
+}
+
+
+
+/*==================================================
+=            HEADINGS
+==================================================*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+
+    font-family:var(--font-title);
+
+    font-weight:400;
+
+    color:var(--color-primary);
+
+    letter-spacing:1px;
+
+}
+
+
+
+/*==================================================
+=            PARAGRAPHS
+==================================================*/
+
+p{
+
+    color:var(--color-gray);
+
+    margin-bottom:var(--space-md);
+
+}
+
+
+
+/*==================================================
+=            LINKS
+==================================================*/
+
+a{
+
+    text-decoration:none;
+
+    color:inherit;
+
+    transition:var(--transition);
+
+}
+
+
+
+/*==================================================
+=            LISTS
+==================================================*/
+
+ul,
+ol{
+
+    list-style:none;
+
+}
+
+
+
+/*==================================================
+=            IMAGES
+==================================================*/
+
+img{
+
+    display:block;
+
+    max-width:100%;
+
+    height:auto;
+
+}
+
+
+
+/*==================================================
+=            BUTTONS
+==================================================*/
+
+button{
+
+    border:none;
+
+    outline:none;
+
+    background:none;
+
+    cursor:pointer;
+
+    font-family:inherit;
+
+}
+
+
+
+/*==================================================
+=            INPUTS
+==================================================*/
+
+input,
+textarea,
+select{
+
+    font-family:inherit;
+
+    border:none;
+
+    outline:none;
+
+}
+
+
+
+/*==================================================
+=            TABLE
+==================================================*/
+
+table{
+
+    border-collapse:collapse;
+
+}
+
+
+
+/*==================================================
+=            UTILITIES
+==================================================*/
+
+/*
+Reusable helper classes
+*/
+
+.container{
+
+    width:min(1200px,90%);
+
+    margin:auto;
+
+}
+
+.text-center{
+
+    text-align:center;
+
+}
+
+.hidden{
+
+    display:none;
+
+}

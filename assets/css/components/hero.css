@@ -1,0 +1,214 @@
+/*==================================================
+#
+# HERO COMPONENT
+#
+==================================================*/
+
+.hero{
+
+    position:relative;
+
+    min-height:100vh;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    overflow:hidden;
+
+    background:url("../../images/background/hero.jpg");
+
+    background-size:cover;
+
+    background-position:center;
+
+}
+
+.hero-overlay{
+
+    position:absolute;
+
+    inset:0;
+
+    background:rgba(0,0,0,.60);
+
+}
+
+.hero-content{
+
+    position:relative;
+
+    z-index:2;
+
+    max-width:700px;
+
+    color:var(--color-white);
+
+}
+
+.hero-subtitle{
+
+    display:inline-block;
+
+    margin-bottom:1rem;
+
+    font-size:var(--fs-lg);
+
+    color:var(--color-secondary);
+
+    font-weight:var(--fw-semibold);
+
+}
+
+.hero h1{
+
+    font-size:clamp(3.5rem,7vw,6rem);
+
+    line-height:1.1;
+
+    margin-bottom:1.5rem;
+
+}
+
+.hero p{
+
+    font-size:1.2rem;
+
+    margin-bottom:2rem;
+
+    max-width:600px;
+
+}
+
+.hero-buttons{
+
+    display:flex;
+
+    gap:1rem;
+
+    flex-wrap:wrap;
+
+}
+
+/*==================================================
+HERO STATS
+==================================================*/
+
+.hero-stats{
+
+    display:flex;
+
+    gap:4rem;
+
+    margin-top:4rem;
+
+    flex-wrap:wrap;
+
+}
+
+.stat-item{
+
+    text-align:center;
+
+}
+
+.stat-item h3{
+
+    font-size:2.8rem;
+
+    color:var(--color-secondary);
+
+    margin-bottom:.5rem;
+
+}
+
+.stat-item span{
+
+    color:var(--color-white);
+
+    font-size:1rem;
+
+    letter-spacing:1px;
+
+}
+/*==================================================
+SCROLL INDICATOR
+==================================================*/
+
+.scroll-down{
+
+    position:absolute;
+
+    bottom:40px;
+
+    left:50%;
+
+    transform:translateX(-50%);
+
+    display:flex;
+
+    flex-direction:column;
+
+    align-items:center;
+
+    gap:.8rem;
+
+    color:var(--color-white);
+
+    z-index:2;
+
+}
+
+.mouse{
+
+    width:30px;
+
+    height:50px;
+
+    border:2px solid var(--color-white);
+
+    border-radius:20px;
+
+    display:flex;
+
+    justify-content:center;
+
+    padding-top:8px;
+
+}
+
+.wheel{
+
+    width:4px;
+
+    height:10px;
+
+    background:var(--color-white);
+
+    border-radius:5px;
+
+    animation:scroll 1.5s infinite;
+
+}
+
+@keyframes scroll{
+
+    0%{
+
+        opacity:1;
+
+        transform:translateY(0);
+
+    }
+
+    100%{
+
+        opacity:0;
+
+        transform:translateY(12px);
+
+    }
+
+}

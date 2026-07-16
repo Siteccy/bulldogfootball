@@ -1,0 +1,18 @@
+
+/*==================================================
+=            DIVIDER
+==================================================*/
+
+.divider{
+
+    width:100px;
+
+    height:5px;
+
+    background:var(--color-secondary);
+
+    margin:20px auto;
+
+    border-radius:10px;
+
+}

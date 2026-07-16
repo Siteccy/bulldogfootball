@@ -1,0 +1,91 @@
+
+
+/*==================================================
+=            BUTTONS
+==================================================*/
+
+.btn{
+
+    display:inline-flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    padding:14px 32px;
+
+    border-radius:var(--radius-md);
+
+    font-size:var(--fs-md);
+
+    font-weight:var(--fw-semibold);
+
+    cursor:pointer;
+
+    transition:var(--transition);
+
+}
+
+
+
+/*==================================
+Primary Button
+==================================*/
+
+.btn-primary{
+
+    background:var(--color-secondary);
+
+    color:var(--color-dark);
+
+}
+
+.btn-primary:hover{
+
+    background:var(--color-accent);
+
+    color:var(--color-white);
+
+}
+
+
+
+/*==================================
+Secondary Button
+==================================*/
+
+.btn-secondary{
+
+    background:var(--color-primary);
+
+    color:var(--color-white);
+
+}
+
+.btn-secondary:hover{
+
+    background:var(--color-accent);
+
+}
+
+
+
+/*==================================
+Outline Button
+==================================*/
+
+.btn-outline{
+
+    border:2px solid var(--color-secondary);
+
+    color:var(--color-secondary);
+
+}
+
+.btn-outline:hover{
+
+    background:var(--color-secondary);
+
+    color:var(--color-dark);
+
+}

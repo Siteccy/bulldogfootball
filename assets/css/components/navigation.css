@@ -1,0 +1,148 @@
+/*==================================================
+#
+# NAVIGATION COMPONENT
+#
+==================================================*/
+
+
+/*==================================================
+NAVIGATION
+==================================================*/
+
+.navigation{
+
+    display:flex;
+
+    align-items:center;
+
+}
+
+
+
+/*==================================================
+NAVIGATION LIST
+==================================================*/
+
+.nav-list{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:2rem;
+
+}
+
+
+
+/*==================================================
+NAVIGATION ITEMS
+==================================================*/
+
+.nav-list li{
+
+    position:relative;
+
+}
+
+
+
+/*==================================================
+NAVIGATION LINKS
+==================================================*/
+
+.nav-link{
+
+    position:relative;
+
+    display:inline-block;
+
+    font-size:var(--fs-md);
+
+    font-weight:var(--fw-medium);
+
+    color:var(--color-white);
+
+    transition:var(--transition);
+
+}
+
+
+
+/*==================================================
+HOVER EFFECT
+==================================================*/
+
+.nav-link::after{
+
+    content:"";
+
+    position:absolute;
+
+    left:0;
+
+    bottom:-8px;
+
+    width:0;
+
+    height:3px;
+
+    background:var(--color-secondary);
+
+    transition:var(--transition);
+
+}
+
+
+
+.nav-link:hover{
+
+    color:var(--color-secondary);
+
+}
+
+
+
+.nav-link:hover::after{
+
+    width:100%;
+
+}
+
+
+
+/*==================================================
+ACTIVE LINK
+==================================================*/
+
+.nav-link.active{
+
+    color:var(--color-secondary);
+
+}
+
+
+
+.nav-link.active::after{
+
+    width:100%;
+
+}
+
+
+
+/*==================================================
+MOBILE BUTTON
+==================================================*/
+
+.menu-toggle{
+
+    display:none;
+
+    font-size:2rem;
+
+    color:var(--color-white);
+
+    cursor:pointer;
+
+}

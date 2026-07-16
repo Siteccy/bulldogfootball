@@ -1,0 +1,43 @@
+
+/*==================================================
+=            SOCIAL ICONS
+==================================================*/
+
+.social-icons{
+
+    display:flex;
+
+    gap:1rem;
+
+}
+
+.social-icons a{
+
+    width:45px;
+
+    height:45px;
+
+    border-radius:50%;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    background:var(--color-primary);
+
+    color:var(--color-white);
+
+    transition:var(--transition);
+
+}
+
+.social-icons a:hover{
+
+    background:var(--color-secondary);
+
+    color:var(--color-dark);
+
+}
+

@@ -1,0 +1,64 @@
+
+/*==================================================
+=            CARD
+==================================================*/
+
+.card{
+
+    background:var(--color-white);
+
+    border-radius:var(--radius-lg);
+
+    overflow:hidden;
+
+    box-shadow:var(--shadow-sm);
+
+    transition:var(--transition);
+
+}
+
+.card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:var(--shadow-lg);
+
+}
+
+
+
+/*==================================================
+=            CARD IMAGE
+==================================================*/
+
+.card-image{
+
+    width:100%;
+
+    overflow:hidden;
+
+}
+
+.card-image img{
+
+    transition:.5s;
+
+}
+
+.card:hover img{
+
+    transform:scale(1.08);
+
+}
+
+
+
+/*==================================================
+=            CARD BODY
+==================================================*/
+
+.card-body{
+
+    padding:2rem;
+
+}

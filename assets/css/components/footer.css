@@ -1,0 +1,113 @@
+/*==================================================
+#
+# FOOTER COMPONENT
+#
+==================================================*/
+
+/*==================================
+Footer
+==================================*/
+
+.footer{
+
+    background:var(--color-primary);
+
+    color:var(--color-white);
+
+    padding:5rem 0 0;
+
+}
+
+/*==================================
+Grid
+==================================*/
+
+.footer-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(4,1fr);
+
+    gap:3rem;
+
+}
+
+/*==================================
+Columns
+==================================*/
+
+.footer-column h3{
+
+    color:var(--color-secondary);
+
+    margin-bottom:1.5rem;
+
+    font-size:1.4rem;
+
+}
+
+.footer-column p{
+
+    color:#CBD5E1;
+
+    margin-bottom:.8rem;
+
+}
+
+.footer-column ul{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:.8rem;
+
+}
+
+.footer-column a{
+
+    color:#CBD5E1;
+
+    transition:var(--transition);
+
+}
+
+.footer-column a:hover{
+
+    color:var(--color-secondary);
+
+}
+
+/*==================================
+Sponsor
+==================================*/
+
+.footer-column img{
+
+    max-width:180px;
+
+}
+
+/*==================================
+Bottom
+==================================*/
+
+.footer-bottom{
+
+    margin-top:4rem;
+
+    padding:1.5rem 0;
+
+    border-top:1px solid rgba(255,255,255,.15);
+
+    text-align:center;
+
+}
+
+.footer-bottom p{
+
+    margin:0;
+
+    color:#CBD5E1;
+
+}

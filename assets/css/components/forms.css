@@ -1,0 +1,30 @@
+
+/*==================================================
+=            FORM
+==================================================*/
+
+.form-group{
+
+    margin-bottom:1.5rem;
+
+}
+
+.form-control{
+
+    width:100%;
+
+    padding:15px;
+
+    border:1px solid #DDD;
+
+    border-radius:var(--radius-sm);
+
+    transition:var(--transition);
+
+}
+
+.form-control:focus{
+
+    border-color:var(--color-secondary);
+
+}
