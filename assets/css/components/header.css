@@ -94,7 +94,7 @@
 
 .logo img{
 
-    width:65px;
+    width:120px;
 
 }
 
@@ -104,7 +104,6 @@
 
     font-size:2rem;
 
-    color:var(--color-white);
 
     letter-spacing:1px;
 

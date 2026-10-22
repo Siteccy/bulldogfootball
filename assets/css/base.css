@@ -50,11 +50,12 @@ Any color, size or font should be declared here.
     --color-primary:#0F172A;
     --color-secondary:#D4AF37;
     --color-accent:#C1121F;
-
     --color-white:#FFFFFF;
     --color-light:#F8FAFC;
     --color-gray:#64748B;
     --color-dark:#020617;
+    --color-cream:#f1dfa3;
+    
 
     /*==================================
     Typography

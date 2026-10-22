@@ -18,7 +18,7 @@
 
     overflow:hidden;
 
-    background:url("../../images/background/hero.jpg");
+    background:url("../../images/background/hero.png");
 
     background-size:cover;
 
@@ -70,6 +70,9 @@
 
     margin-bottom:1.5rem;
 
+    color:var(--color-white);
+
+
 }
 
 .hero p{
@@ -79,6 +82,9 @@
     margin-bottom:2rem;
 
     max-width:600px;
+
+    color:var(--color-cream);
+
 
 }
 
@@ -155,7 +161,7 @@ SCROLL INDICATOR
 
     gap:.8rem;
 
-    color:var(--color-white);
+    /* color:var(--color-white); */
 
     z-index:2;
 
@@ -167,7 +173,7 @@ SCROLL INDICATOR
 
     height:50px;
 
-    border:2px solid var(--color-white);
+    /* border:2px solid var(--color-white); */
 
     border-radius:20px;
 
@@ -185,7 +191,7 @@ SCROLL INDICATOR
 
     height:10px;
 
-    background:var(--color-white);
+    /* background:var(--color-white); */
 
     border-radius:5px;
 
